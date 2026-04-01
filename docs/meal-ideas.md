@@ -141,19 +141,6 @@
         - Grilled chicken with garam masala, sumac, and pepper
         - [Salsa verde](salsa-verde.md)
 
-??? note "Review"
-    - Grilled chicken sandwich
-    - Poke bowl with chicken
-    - French onion soup
-    - Pesto pasta
-    - Tonkotsu ramen
-    - Biriyani
-    - Birria tacos
-    - Parsnip and potato mash with meatballs
-    - Rueben sandwich
-    - Rueben meatball bake (a la SortedFood)
-    - Berry and banana smoothie
-    - Grilled chicken with garam masala, sumac, and pepper
 
 ??? note "From videos"
     # Breakfast ideas
