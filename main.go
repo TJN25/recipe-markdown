@@ -23,6 +23,7 @@ func main() {
 
 	fmt.Printf("Using %s to write to %s with %s as the landing page\n", *src, *out, *index)
 
+	files := []string{}
 	err := filepath.WalkDir(*src, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -45,17 +46,23 @@ func main() {
 			return nil
 		}
 
-		err = writeContents(modifiedContents, out, path)
+		outPath, err := writeContents(modifiedContents, out, path)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "%s", err)
 			return nil
 		}
+		files = append(files, outPath)
 		if filepath.Base(path) == *index {
-			err = writeContents(modifiedContents, out, "index.md")
+			_, err = writeContents(modifiedContents, out, "index.md")
 			if err != nil {
 				fmt.Fprintf(os.Stderr, "%s", err)
 				return nil
 			}
+		}
+		err = writeContentsPage(out, files)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s", err)
+			return nil
 		}
 
 		return nil
@@ -112,20 +119,20 @@ func processData(contents []string) ([]string, error) {
 	return modifiedContents, nil
 }
 
-func writeContents(contents []string, out *string, path string) error {
+func writeContents(contents []string, out *string, path string) (string, error) {
 	base := filepath.Base(path)
 	outPath := filepath.Join(*out, base)
 	err := os.MkdirAll(filepath.Dir(outPath), 0o755)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	output := strings.Join(contents, "\n")
 	err = os.WriteFile(outPath, []byte(output), 0o644)
 	if err != nil {
-		return err
+		return "", err
 	}
-	return nil
+	return outPath, nil
 }
 
 var wikiLinkRE = regexp.MustCompile(`\[\[([^|\]]+)(?:\|([^\]]+))?\]\]`)
@@ -141,4 +148,16 @@ func rewriteWikiLinks(line string) string {
 		}
 		return "[" + text + "](" + target + ".md)"
 	})
+}
+
+func writeContentsPage(out *string, files []string) error {
+	lines := []string{"# Contents\n"}
+
+	for _, file := range files {
+		name := strings.TrimSuffix(file, filepath.Ext(file))
+		lines = append(lines, "- ["+name+"]("+file+")")
+	}
+	outPath := filepath.Join(*out, "contents.md")
+	output := strings.Join(lines, "\n")
+	return os.WriteFile(outPath, []byte(output), 0o644)
 }
