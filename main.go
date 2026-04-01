@@ -1,0 +1,144 @@
+package main
+
+import (
+	"flag"
+	"fmt"
+	"io/fs"
+	"os"
+	"path/filepath"
+	"regexp"
+	"strings"
+)
+
+func main() {
+	src := flag.String("src", "", "path to source directory")
+	out := flag.String("out", "docs", "path to output directory (default: docs)")
+	index := flag.String("index", "meal-ideas.md", "file to target as the 'index.md' (default: meal-ideas.md)")
+
+	flag.Parse()
+	if *src == "" {
+		fmt.Fprintln(os.Stderr, "--src is required")
+		os.Exit(1)
+	}
+
+	fmt.Printf("Using %s to write to %s with %s as the landing page\n", *src, *out, *index)
+
+	err := filepath.WalkDir(*src, func(path string, d fs.DirEntry, err error) error {
+		if err != nil {
+			return err
+		}
+
+		if filepath.Ext(path) != ".md" {
+			return nil
+		}
+		data, err := os.ReadFile(path)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s", err)
+			return nil
+		}
+
+		contents := strings.Split(string(data), "\n")
+
+		modifiedContents, err := processData(contents)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s", err)
+			return nil
+		}
+
+		err = writeContents(modifiedContents, out, path)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "%s", err)
+			return nil
+		}
+		if filepath.Base(path) == *index {
+			err = writeContents(modifiedContents, out, "index.md")
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "%s", err)
+				return nil
+			}
+		}
+
+		return nil
+	})
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "%s", err)
+		os.Exit(1)
+	}
+}
+
+func processData(contents []string) ([]string, error) {
+	frontmatter := len(contents) > 0 && strings.HasPrefix(contents[0], "---")
+	seenOpenFrontmatter := false
+	seenCloseFrontmatter := false
+	modifiedContents := []string{}
+	headingSet := ""
+	for _, line := range contents {
+		if frontmatter && !seenCloseFrontmatter {
+			if strings.HasPrefix(line, "---") {
+				if !seenOpenFrontmatter {
+					seenOpenFrontmatter = true
+					continue
+				}
+				seenCloseFrontmatter = true
+				continue
+			}
+			continue
+		}
+		line = rewriteWikiLinks(line)
+		switch {
+		case strings.HasPrefix(line, "### "):
+			title := strings.TrimPrefix(line, "### ")
+			modifiedContents = append(modifiedContents, `    ??? info "`+title+`"`)
+			headingSet = "h3"
+			continue
+		case strings.HasPrefix(line, "## "):
+			title := strings.TrimPrefix(line, "## ")
+			modifiedContents = append(modifiedContents, `??? note "`+title+`"`)
+			headingSet = "h2"
+			continue
+		}
+
+		if line != "" {
+			if headingSet == "h3" {
+				line = "        " + line
+			} else if headingSet == "h2" {
+				line = "    " + line
+			}
+		}
+		modifiedContents = append(modifiedContents, line)
+
+	}
+
+	return modifiedContents, nil
+}
+
+func writeContents(contents []string, out *string, path string) error {
+	base := filepath.Base(path)
+	outPath := filepath.Join(*out, base)
+	err := os.MkdirAll(filepath.Dir(outPath), 0o755)
+	if err != nil {
+		return err
+	}
+
+	output := strings.Join(contents, "\n")
+	err = os.WriteFile(outPath, []byte(output), 0o644)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+var wikiLinkRE = regexp.MustCompile(`\[\[([^|\]]+)(?:\|([^\]]+))?\]\]`)
+
+func rewriteWikiLinks(line string) string {
+	return wikiLinkRE.ReplaceAllStringFunc(line, func(match string) string {
+		parts := wikiLinkRE.FindStringSubmatch(match)
+
+		target := parts[1]
+		text := target
+		if parts[2] != "" {
+			text = parts[2]
+		}
+		return "[" + text + "](" + target + ".md)"
+	})
+}

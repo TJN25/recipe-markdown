@@ -1,0 +1,35 @@
+site_name: Recipes
+docs_dir: docs
+nav:
+  - Home: index.md
+  - Full meals:
+      - Go to:
+          - Burrito: chicken-burrito.md
+          - Turkish kebab: doner-kebab.md
+          - Cottage pie: mexican-style-cottage-pie.md
+          - Burgers: burgers.md
+          - Nasi goreng: nasi-goreng.md
+          - Mac and cheese: mac-and-cheese.md
+          - Lasagne: spag-bol-bake.md
+          - Butter chicken: butter-chicken.md
+          - Spag bol: spag-bol.md
+          - Chipotle chicken mac and cheese: chipotle-chicken-mac-and-cheese.md
+  - Components:
+      - Go to:
+          - Pickled red onion: pickled-red-onion.md
+          - Home-made red sauce: burrito-sauce.md
+          - Home-made bbq sauce: bbq-sauce.md
+          - Home-made breakfast sauce: breakfast-sauce.md
+          - Spiced cous cous: spiced-couscous.md
+          - Burrito sauce: burrito-sauce.md
+          - Bechemel: bechemel.md
+          - Doner meat: doner-meat.md
+          - Mexican chicken: mexican-chicken-marinade.md
+theme:
+  name: material
+  features:
+    - navigation.expand
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details

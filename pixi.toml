@@ -1,0 +1,13 @@
+[project]
+authors = ["Nicholson <nicholson.tom.n@gmail.com>"]
+channels = ["conda-forge"]
+name = "recipe-markdown"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.7.6,<10"
