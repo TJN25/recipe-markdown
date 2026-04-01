@@ -1,4 +1,5 @@
 .DS_Store
+recipe-markdown
 # pixi environments
 .pixi
 *.egg-info
