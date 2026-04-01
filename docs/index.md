@@ -16,6 +16,7 @@
         - [Chipotle chicken mac and cheese](chipotle-chicken-mac-and-cheese.md) (15 minutes)
 
     ??? info "Reliable meals"
+        - [Creamy chilli pasta](creamy-chilli-pasta.md) (30 minutes)
         - Pizza ([Pizza dough](pizza-dough.md), [Pizza sauce](pizza-sauce.md)) (4 hours)
         - [Banh mi](banh-mi.md) (1 hour)
         - Braised beef sandwich ([Braised beef](slow-cooker-beef.md), [Bread roll](bread-roll.md), [BBQ sauce](bbq-sauce.md), [Pickled red onion](pickled-red-onion.md)) (15 minutes)
@@ -31,6 +32,7 @@
 
     ??? info "Have made at least once"
         - [Chicken Florentine](chicken-florentine.md)
+        - [Mi Goreng](sichuan-mi-goreng.md)
         - [Asian fusion curry](asian-fusion-curry.md)
         - [Beef and feta orzo](beef-and-feta-orzo.md)
         - [Beef pide](beef-pide.md)
@@ -77,7 +79,6 @@
         - Parsnip and potato mash with meatballs
         - Rueben sandwich
         - Rueben meatball bake (a la SortedFood)
-        - [Mi Goreng](sichuan-mi-goreng.md)
         - [Butter Maggi ramen](butter-maggi-ramen.md)
         - [Chicken korma](chicken-korma.md)
         - [Chicken salad](chicken-salad.md)
