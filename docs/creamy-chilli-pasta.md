@@ -1,43 +1,41 @@
 
-# Creamy Chilli Pasta
+??? note "Creamy Chilli Chicken and Bacon Pasta"
 
-**Serves:** 2
-**Prep:** 5 min
-**Cook:** 15 min
-**Total:** 20 min
+    **Serves:** 2
+    **Prep:** 5 min
+    **Cook:** 15 min
+    **Total:** 20 min
 
-??? note "Ingredients"
+    ??? info "Ingredients"
 
-    * 180 g fettuccine or other pasta
-    * 150–200 g bacon, chopped
-    * 180 g chicken breast, halved horizontally
-    * 1 tbsp butter
-    * 2 garlic cloves, minced
-    * 1/2 small onion, finely chopped
-    * 1 small fresh chilli, finely chopped
-    * A splash of white wine
-    * 185 ml heavy cream
-    * 185 ml pasta cooking water
-    * 1/2 cup finely grated parmesan
-    * Salt
-    * Black pepper
+        * 150 g spaghetti
+        * 6 strips bacon
+        * 150 g chicken breast, finely diced
+        * 20–25 g butter
+        * 2 garlic cloves, minced
+        * 1 small onion, finely chopped
+        * 1 small fresh chilli, finely chopped
+        * 1/6 cup white wine
+        * 150 ml cream
+        * 2/3 cup pasta cooking water
+        * 1/2 cup finely grated parmesan
+        * Salt
+        * Black pepper
 
-    ??? info "To serve"
+    ??? info "Method"
 
-        * Fresh parsley
-        * Extra parmesan
-
-??? note "Method"
-
-    1. Bring a large pot of salted water to the boil. Cook the pasta for 2 minutes less than the packet says.
-    2. Scoop out about 185 ml pasta water, then drain the pasta.
-    3. Cook the bacon until golden. Remove and drain on paper towels.
-    4. Season the chicken with salt and black pepper, then cook it in the bacon fat for about 2 minutes per side. Slice or chop once cooked.
-    5. Wipe out the pan if you want a cleaner, less bacony sauce.
-    6. Melt the butter over medium heat. Add the onion, garlic, and chilli and cook for 3–4 minutes, until softened and lightly golden.
-    7. Add a splash of white wine and let it cook off briefly.
-    8. Add the cream, pasta water, and parmesan. Stir and simmer for about 2 minutes until slightly reduced. Season with salt and black pepper.
-    9. Add the pasta and toss for about 1 1/2 minutes, until the sauce thickens and coats it. Add a splash more pasta water if needed.
-    10. Toss through the bacon and chicken.
-    11. Serve immediately with parsley and extra parmesan.
+        1. Bring a large pot of salted water to the boil.
+        2. Season the diced chicken with salt (a pinch or two) and black pepper (generously if you like pepper).
+        3. Cook the bacon until golden, then remove it from the pan (I just do it at the same time in the oven on 180C for 20 minutes. Keep the fat, and chop the bacon once it is cool enough to handle.
+        4. Melt the butter over medium heat. Add the onion and cook until softened.
+        5. Add the chilli and garlic and cook for a couple of minutes.
+        6. Add the chicken and cook until nearly done.
+        7. Add the white wine and let it reduce.
+        8. Pour in the reserved bacon fat.
+        9. Put the spaghetti into the boiling water and cook for 6 minutes.
+        10. Scoop out 2/3 cup pasta water, then drain the spaghetti.
+        11. Add the cream, pasta water, and parmesan, then stir and simmer briefly to reduce a little.
+        12. Add enough pasta water to the sauce to loosen it as needed.
+        13. Add the spaghetti and continue simmering while stirring until the sauce reaches the right consistency.
+        14. Toss through the chopped bacon, taste, and add more salt if needed.
 
