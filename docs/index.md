@@ -71,6 +71,7 @@
         - [Kecap and coconut chicken](kecap-and-coconut-chicken.md)
 
     ??? info "Ideas"
+        - [burger-bowl](burger-bowl.md)
         - French onion soup
         - Pesto pasta
         - Tonkotsu ramen
