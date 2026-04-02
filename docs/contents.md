@@ -12,6 +12,7 @@
 - [docs/beef-pide](docs/beef-pide.md)
 - [docs/bread-roll](docs/bread-roll.md)
 - [docs/breakfast-sauce](docs/breakfast-sauce.md)
+- [docs/burger-bowl](docs/burger-bowl.md)
 - [docs/burgers](docs/burgers.md)
 - [docs/burrito-sauce](docs/burrito-sauce.md)
 - [docs/butter-chicken](docs/butter-chicken.md)
