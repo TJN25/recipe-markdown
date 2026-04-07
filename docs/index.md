@@ -16,6 +16,7 @@
         - [Chipotle chicken mac and cheese](chipotle-chicken-mac-and-cheese.md) (15 minutes)
 
     ??? info "Reliable meals"
+        - [burger-bowl](burger-bowl.md) (30 minutes)
         - [Creamy chilli pasta](creamy-chilli-pasta.md) (30 minutes)
         - Pizza ([Pizza dough](pizza-dough.md), [Pizza sauce](pizza-sauce.md)) (4 hours)
         - [Banh mi](banh-mi.md) (1 hour)
@@ -71,7 +72,6 @@
         - [Kecap and coconut chicken](kecap-and-coconut-chicken.md)
 
     ??? info "Ideas"
-        - [burger-bowl](burger-bowl.md)
         - French onion soup
         - Pesto pasta
         - Tonkotsu ramen
