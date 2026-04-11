@@ -154,7 +154,7 @@ func writeContentsPage(out *string, files []string) error {
 	lines := []string{"# Contents\n"}
 
 	for _, file := range files {
-		name := strings.TrimPrefix(strings.TrimSuffix(file, filepath.Ext(file)), "docs/")
+		name := strings.TrimPrefix(strings.TrimSuffix(file, filepath.Ext(file)), *out+"/")
 		lines = append(lines, "- ["+name+"]("+name+".md)")
 	}
 	outPath := filepath.Join(*out, "contents.md")
