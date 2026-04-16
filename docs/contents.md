@@ -42,6 +42,8 @@
 - [doner-kebab](doner-kebab.md)
 - [doner-meat](doner-meat.md)
 - [duck-tacos](duck-tacos.md)
+- [enchilada-chicken-mix](enchilada-chicken-mix.md)
+- [enchilada-sauce](enchilada-sauce.md)
 - [enchiladas](enchiladas.md)
 - [english-muffins](english-muffins.md)
 - [fettuccine-with-mushroom-white-wine-sauce](fettuccine-with-mushroom-white-wine-sauce.md)
