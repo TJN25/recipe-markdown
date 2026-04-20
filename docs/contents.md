@@ -15,6 +15,7 @@
 - [burger-bowl](burger-bowl.md)
 - [burgers](burgers.md)
 - [burrito-sauce](burrito-sauce.md)
+- [burrito-veges](burrito-veges.md)
 - [butter-chicken](butter-chicken.md)
 - [butter-maggi-ramen](butter-maggi-ramen.md)
 - [caesar-salad-wrap](caesar-salad-wrap.md)

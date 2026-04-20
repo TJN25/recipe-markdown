@@ -23,7 +23,7 @@
     ??? info "Ingredients"
 
         * 1 tsp neutral oil
-        * 1 tsp soy sauce
+         tsp soy sauce
         * 1 tsp honey
         * 1 tsp minced garlic
         * 1/4 tsp mustard powder

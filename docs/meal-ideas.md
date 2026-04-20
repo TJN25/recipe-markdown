@@ -1,10 +1,9 @@
-0
 ??? note "Full meals"
     ??? info "Go to"
         - [Burrito](chicken-burrito.md) (20 minutes)
         - [Turkish kebab](doner-kebab.md) (20 minutes)
         - Grilled chicken sandwich (15 minutes)
-        - Poke bowl with chicken (20 minutes)
+        - [Poke bowl with chicken](chicken-rice-bowl.md) (20 minutes)
         - [Cottage pie](mexican-style-cottage-pie.md) (1 hour 15 minutes)
         - [Burgers](burgers.md) (15 minutes)
         - Poached eggs on toast (10 minutes)
@@ -14,10 +13,10 @@
         - [Butter chicken](butter-chicken.md) (3 hours)
         - [Spag bol](spag-bol.md) (fancy) (1 hour 30 minutes)
         - [Chipotle chicken mac and cheese](chipotle-chicken-mac-and-cheese.md) (15 minutes)
+        - [Creamy chilli pasta](creamy-chilli-pasta.md) (30 minutes)
 
     ??? info "Reliable meals"
         - [burger-bowl](burger-bowl.md) (30 minutes)
-        - [Creamy chilli pasta](creamy-chilli-pasta.md) (30 minutes)
         - Pizza ([Pizza dough](pizza-dough.md), [Pizza sauce](pizza-sauce.md)) (4 hours)
         - [Banh mi](banh-mi.md) (1 hour)
         - Braised beef sandwich ([Braised beef](slow-cooker-beef.md), [Bread roll](bread-roll.md), [BBQ sauce](bbq-sauce.md), [Pickled red onion](pickled-red-onion.md)) (15 minutes)
@@ -32,6 +31,7 @@
         - [Meat pie](meat-pie.md) (need new recipe; I think the worchestershire sauce and specific brand of puff pastry are wrong)
 
     ??? info "Have made at least once"
+        - [Enchiladas](enchiladas.md)
         - [Chicken Florentine](chicken-florentine.md)
         - [Mi Goreng](sichuan-mi-goreng.md)
         - [Asian fusion curry](asian-fusion-curry.md)
@@ -121,6 +121,11 @@
 
     ??? info "Have made at least once"
         - [Home-made mayo](kewpie-style-mayo.md) (5 minutes)
+        - [Enchilada chicken](enchilada-chicken-mix.md)
+        - [Enchilada sauce](enchilada-sauce.md)
+        - [Queso](queso.md)
+        - [Sour dough](sour-dough.md)
+        - [Burrito veges](burrito-veges.md)
         - [Mojo pork](mojo-pork.md) (8-10 hours)
         - [Stock](stock.md) (12 hours)
         - [English muffins](english-muffins.md)
@@ -137,6 +142,7 @@
         - [Pita bread](pita-bread.md)
         - [ ] [Tangy spicy mayo](tangy-spicy-mayo.md) (5 minutes)
         - [Indonesian pickled carrots](indonesian-pickled-carrots.md)
+        - [Chips](chips.md)
 
     ??? info "Ideas"
         - Grilled chicken with garam masala, sumac, and pepper
