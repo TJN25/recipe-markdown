@@ -14,6 +14,8 @@
         - [Spag bol](spag-bol.md) (fancy) (1 hour 30 minutes)
         - [Chipotle chicken mac and cheese](chipotle-chicken-mac-and-cheese.md) (15 minutes)
         - [Creamy chilli pasta](creamy-chilli-pasta.md) (30 minutes)
+        - [Chelle's salad](mexican-chicken-rice-salad.md)
+        - [Chelle's cheese bake](chicken-edamame-cheese-bake.md)
 
     ??? info "Reliable meals"
         - [burger-bowl](burger-bowl.md) (30 minutes)
