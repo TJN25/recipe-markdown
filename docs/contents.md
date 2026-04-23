@@ -58,6 +58,7 @@
 - [fusion-taco-noodles](fusion-taco-noodles.md)
 - [garlic-bread](garlic-bread.md)
 - [ginger-peach-fire-sauce](ginger-peach-fire-sauce.md)
+- [goan-carrot-pickle](goan-carrot-pickle.md)
 - [gravy](gravy.md)
 - [gyoza](gyoza.md)
 - [indonesian-pickled-carrots](indonesian-pickled-carrots.md)
