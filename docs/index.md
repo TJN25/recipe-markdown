@@ -149,7 +149,7 @@
     ??? info "Ideas"
         - Grilled chicken with garam masala, sumac, and pepper
         - [Salsa verde](salsa-verde.md)
-
+        - [Carrot Pickle](goan-carrot-pickle.md)
 
 ??? note "From videos"
     # Breakfast ideas
