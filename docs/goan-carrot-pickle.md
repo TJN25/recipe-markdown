@@ -3,6 +3,8 @@
 
 **Yield:** about 300 g
 
+From: https://www.celebrationinmykitchen.com/carrot-pickle
+
 ??? note "Ingredients"
 
     * 250 g carrots
