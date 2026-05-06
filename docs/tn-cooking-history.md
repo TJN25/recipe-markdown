@@ -47,7 +47,7 @@ Spent ~$30 per meal to feed ~4 (2012).
         Came across cookwell and also started using enough salt, and including acid. Accepted that some meals wouldn’t quite work out.
         Changed the approach from ‘making a recipe’ to ‘aiming to make something’ which is subtle, but involved having a general goal and making it work with what I had. Sometimes this involved seeking out a recipe and following it to a tee (butter chicken finally made successfully like this).
         Taking notes about what went wrong and seeking out specifics on how to improve them.
-        Taking a single idea e.g. making [pasta](recipes/fresh-egg-pasta.md), and [building a meal](recipes/fettuccine-with-mushroom-white-wine-sauce.md) around it.
+        Taking a single idea e.g. making [pasta](fresh-egg-pasta.md), and [building a meal](fettuccine-with-mushroom-white-wine-sauce.md) around it.
         Taking time to do things right.
         Repeating the near successes to see if I can improve on them.
 
@@ -60,7 +60,7 @@ Spent ~$30 per meal to feed ~4 (2012).
         - Over salty carbonara
         - Weird croque monsieur
         - Very sweet and not great tikka masala
-        - Over cooked chicken breast for a [chicken rice bowl](recipes/chicken-rice-bowl.md)
+        - Over cooked chicken breast for a [chicken rice bowl](chicken-rice-bowl.md)
 
         The why behind different things has helped a lot for fast improvement e.g.
         - What salt does to proteins

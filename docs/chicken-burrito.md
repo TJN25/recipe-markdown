@@ -3,12 +3,12 @@
 **Makes:** 1 serving
 
 ??? note "Ingredients"
-    - 1 large [flour tortilla](recipes/flour-tortilla.md) (wrap, structure)
-    - 50g [mexican chicken marinade](recipes/mexican-chicken-marinade.md) (protein, flavor base)
-    - 3-4 passes [mexican spicy sauce](recipes/mexican-spicy-sauce.md) (moisture, heat, flavor)
+    - 1 large [flour tortilla](flour-tortilla.md) (wrap, structure)
+    - 50g [mexican chicken marinade](mexican-chicken-marinade.md) (protein, flavor base)
+    - 3-4 passes [mexican spicy sauce](mexican-spicy-sauce.md) (moisture, heat, flavor)
     - 50g everyday cheese, grated (binding, richness)
     - 1 lettuce leaf (crunch, freshness)
-    - Small handful [pickled red onion](recipes/pickled-red-onion.md) (acid, crunch)
+    - Small handful [pickled red onion](pickled-red-onion.md) (acid, crunch)
     - 2 tomato slices, diced (freshness, moisture)
     - 1/4 cup corn kernels (sweetness, texture)
 
@@ -38,7 +38,7 @@
         - Diced tomato
         - Pickled onions
         - Corn
-        - [Mexican Chicken Marinade](recipes/mexican-chicken-marinade.md)
+        - [Mexican Chicken Marinade](mexican-chicken-marinade.md)
         - Spicy sauce (3-4 passes back and forth)
 
     ??? info "Rolling Technique"

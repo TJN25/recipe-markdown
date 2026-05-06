@@ -1,5 +1,5 @@
 **Related:**
-- [Pie](recipes/Pie.md)
+- [Pie](Pie.md)
 - [Mince](Mince.md)
 - [Pastry](Pastry.md)
 - [Cheese](Cheese.md)
@@ -13,7 +13,7 @@
         - [Mince](Mince.md) (500g)
         - [Onion](Onion.md) (1)
         - [Garlic](Garlic.md) (1 tsp crushed)
-        - [Beef](Beef.md) [stock](recipes/stock.md) (1 cube with 250 mL [water](water.md))
+        - [Beef](Beef.md) [stock](stock.md) (1 cube with 250 mL [water](water.md))
         - [Tomato Paste](Tomato Paste.md) ( 1 Tbsp)
         - [Worchesterchire](Worchesterchire.md) [sauce](sauce.md) (1 Tbsp)
         - [Vegemite](Vegemite.md) (1 tsp)

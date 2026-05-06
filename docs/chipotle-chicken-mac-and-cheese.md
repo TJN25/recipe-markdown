@@ -15,15 +15,15 @@
         - Mustard powder (¼ tsp) (enhances cheese flavor)
         - Smoked paprika (¾ tsp) (smoky depth)
         - Chipotle powder (¼-½ tsp, to taste) (smoky heat)
-        - [Mexican Chicken Marinade](recipes/mexican-chicken-marinade.md) (150g, shredded) (protein, flavor)
-        - 1.5 tbsp of your homemade [burrito sauce](recipes/burrito-sauce.md) (optional, for extra flavor)
+        - [Mexican Chicken Marinade](mexican-chicken-marinade.md) (150g, shredded) (protein, flavor)
+        - 1.5 tbsp of your homemade [burrito sauce](burrito-sauce.md) (optional, for extra flavor)
 
     ??? info "Prep Steps"
         1. Grate both cheeses separately
         - Set aside 37g of each for topping (74g total)
         - Remaining 151g for sauce
         2. Measure out butter, flour, milk, and spices
-        3. Shred/prepare [mexican chicken marinade](recipes/mexican-chicken-marinade.md) if not already done
+        3. Shred/prepare [mexican chicken marinade](mexican-chicken-marinade.md) if not already done
         4. Fill large saucepan with water for pasta
 
 ??? note "Cooking Instructions"
@@ -47,7 +47,7 @@
         11. Stir until completely smooth
 
     ??? info "Assembly"
-        1. Fold in shredded [mexican chicken marinade](recipes/mexican-chicken-marinade.md) and [burrito sauce](recipes/burrito-sauce.md) (if using)
+        1. Fold in shredded [mexican chicken marinade](mexican-chicken-marinade.md) and [burrito sauce](burrito-sauce.md) (if using)
         2. Mix overcooked pasta into sauce (should look too saucy - it will thicken)
         3. Transfer to medium casserole dish
         4. Top with remaining cheese mix (74g total)
@@ -67,7 +67,7 @@
         - Pasta should be soft, not al dente
         - Top should have some darker crispy spots
         - The dish should have a smoky, slightly spicy flavor profile that complements the cheese
-        - [Mexican Chicken Marinade](recipes/mexican-chicken-marinade.md) should be well-integrated but still identifiable
+        - [Mexican Chicken Marinade](mexican-chicken-marinade.md) should be well-integrated but still identifiable
 
 ??? note "Storage"
     - Best eaten fresh
@@ -81,4 +81,4 @@
         - A squeeze of lime juice just before serving would add brightness to balance the rich flavors
         - If you have fresh cilantro, a small amount chopped as garnish would add freshness and color
         - For presentation, serve with a small side of Greek yogurt mixed with a pinch of chipotle powder to cool the palate
-        - Consider reserving half the [mexican chicken marinade](recipes/mexican-chicken-marinade.md) to add to the top along with the cheese for more visual appeal and textural contrast
+        - Consider reserving half the [mexican chicken marinade](mexican-chicken-marinade.md) to add to the top along with the cheese for more visual appeal and textural contrast

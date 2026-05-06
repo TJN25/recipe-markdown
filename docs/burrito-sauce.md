@@ -67,7 +67,7 @@
 
 ??? note "Legacy / Alternatives"
 
-    - [Mexican Spicy Sauce](recipes/mexican-spicy-sauce.md) - older version of the sauce
-    - [Ginger Peach Fire Sauce](recipes/ginger-peach-fire-sauce.md)
-    - [Capsicum Sauce](recipes/capsicum-sauce.md)
-    - [Bbq Sauce](recipes/bbq-sauce.md)
+    - [Mexican Spicy Sauce](mexican-spicy-sauce.md) - older version of the sauce
+    - [Ginger Peach Fire Sauce](ginger-peach-fire-sauce.md)
+    - [Capsicum Sauce](capsicum-sauce.md)
+    - [Bbq Sauce](bbq-sauce.md)
