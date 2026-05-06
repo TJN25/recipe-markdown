@@ -1,4 +1,3 @@
-
 # Capsicum sauce
 
 **Stage 1 (Base Prep)**

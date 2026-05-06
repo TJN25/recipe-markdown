@@ -1,4 +1,3 @@
-
 # Butter Chicken (Murgh Makhani)
 
 **Serves:** 2-3

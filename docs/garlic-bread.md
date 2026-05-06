@@ -1,4 +1,3 @@
-
 # Simple Garlic Bread from Pane Di Casa
 
 **Makes:** 1-2 servings (approx. 7-10 slices from a 6-8 inch loaf)

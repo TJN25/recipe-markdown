@@ -1,4 +1,3 @@
-
 # Classic Baked Ziti
 
 **Serves:** 1-2

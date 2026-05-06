@@ -1,4 +1,3 @@
-
 # Mexican Chipotle Chicken
 
 ??? note "Ingredients"

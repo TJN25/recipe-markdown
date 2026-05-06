@@ -1,4 +1,3 @@
-
 # Creamy Chilli Chicken and Bacon Pasta
 
 **Serves:** 2

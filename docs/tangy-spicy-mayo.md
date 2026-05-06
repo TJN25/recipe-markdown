@@ -1,4 +1,3 @@
-
 # Tangy Spicy Mayo (2 serves)
 
 ??? note "Ingredients"

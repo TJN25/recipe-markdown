@@ -1,4 +1,3 @@
-
 # Korean Corn Cheese
 
 ??? note "Ingredients"

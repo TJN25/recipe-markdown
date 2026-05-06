@@ -1,4 +1,3 @@
-
 # Pickled Red Onions
 
 ??? note "Ingredients"

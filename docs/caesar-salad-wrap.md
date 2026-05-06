@@ -4,7 +4,7 @@
 
     **Serves:** 1-2
 
-    - 1 cup [Mexican chicken](mexican-chicken-marinade.md), shredded (protein, main component, flavor)
+    - 1 cup [mexican chicken marinade](recipes/mexican-chicken-marinade.md), shredded (protein, main component, flavor)
     - 2 tortillas (structure, vessel)
     - 2 cups romaine lettuce, chopped (traditional Caesar base, crunch)
     - 1 cup baby spinach (nutritional boost, color contrast)
@@ -37,7 +37,7 @@
         3. Remove bacon to a paper towel-lined plate to drain
         4. Once cool, chop bacon into small pieces
     ??? info "Step 2: Warm the Mexican Chicken"
-        1. In the same cast iron pan with bacon fat, add the shredded [Mexican chicken](mexican-chicken-marinade.md)
+        1. In the same cast iron pan with bacon fat, add the shredded [mexican chicken marinade](recipes/mexican-chicken-marinade.md)
         2. Heat for 2-3 minutes until warmed through, stirring occasionally
         3. Remove from heat and set aside
     ??? info "Step 3: Make Caesar Dressing"
@@ -50,13 +50,13 @@
         2. Lay tortillas flat on a clean surface
         3. Spread 1-2 tbsp of Caesar dressing on each tortilla
         4. Layer romaine lettuce and baby spinach leaves on top
-        5. Arrange warmed [Mexican chicken](mexican-chicken-marinade.md) over greens
+        5. Arrange warmed [mexican chicken marinade](recipes/mexican-chicken-marinade.md) over greens
         6. Sprinkle with chopped bacon and remaining parmesan
         7. Drizzle with a little more dressing
         8. Fold in sides of tortilla and roll tightly from bottom
     ??? info "Enhancements"
         - Traditional Option: Substitute the Greek yogurt with 2 tbsp mayonnaise for a richer, more authentic Caesar flavor
-        - Flavor Enhancement: Add a small amount of your [spicy burrito sauce](burrito-sauce.md) to the dressing for a Mexican-Caesar fusion
+        - Flavor Enhancement: Add a small amount of your [burrito sauce](recipes/burrito-sauce.md) to the dressing for a Mexican-Caesar fusion
 
 ??? note "Notes"
     Tasted good, should have added a second layer of the dressing as it was somewhat dry. More sliced tomato might have helped as well.

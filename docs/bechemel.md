@@ -1,4 +1,3 @@
-
 # Bechemel
 
 ??? note "Ingredients"

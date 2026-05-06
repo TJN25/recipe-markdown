@@ -1,7 +1,6 @@
-
 # Croque **Monsieur**
 
-- 50g [Bechemel](bechemel.md) 
+- 50g [bechemel](recipes/bechemel.md) 
 - 5g Parmegiano regiano
 - 20g Colby cheese
 - Slice of ham

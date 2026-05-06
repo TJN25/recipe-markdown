@@ -1,4 +1,3 @@
-
 # Cottage Cheese Queso
 
 **Serves:** about 4

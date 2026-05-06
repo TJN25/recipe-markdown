@@ -1,4 +1,3 @@
-
 # Indonesian Oil-Based Pickled Carrots (Acar Wortel)
 
 **Makes:** ~1 cup

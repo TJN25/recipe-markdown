@@ -1,4 +1,3 @@
-
 # Banh Mi (2 servings)
 
 ??? note "Ingredients"

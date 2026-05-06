@@ -1,4 +1,3 @@
-
 # Mexican-Style Cottage Pie
 
 **Serves:** 4-6

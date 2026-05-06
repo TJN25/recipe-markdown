@@ -1,0 +1,13 @@
+??? note "Recipe"
+    - 500g [mince](mince.md)
+    - [Onion](Onion.md)
+    - 1 bag [lasagna pasta](lasagna pasta.md)
+    - 2 tsp [Garlic](Garlic.md)
+    - 1 jar dolmio [lasagna sauce](lasagna sauce.md)
+    - 120g [spinach](spinach.md)
+    - 100g [Parmesan cheese](Parmesan cheese.md)
+    - 225g [Cheese](Cheese.md)
+    - 500g [cottage cheese](cottage cheese.md)
+    - 2 [eggs](eggs.md)
+    - [Jalapenos](Jalapenos.md)
+    - [Smoked paprika](Smoked paprika.md)

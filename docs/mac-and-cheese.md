@@ -1,4 +1,3 @@
-
 # Mac and Cheese (2 servings)
 
 ??? note "Ingredients"

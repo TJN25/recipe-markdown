@@ -1,4 +1,3 @@
-
 # Fried Shallots
 
 ??? note "Ingredients"

@@ -1,4 +1,3 @@
-
 # Creamy Chicken Soup
 
 ??? note "Ingredients"

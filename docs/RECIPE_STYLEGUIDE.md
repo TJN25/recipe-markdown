@@ -1,4 +1,3 @@
-
 # Recipe Markdown Style Guide
 
 This vault uses a consistent Markdown structure for recipe files. The goal is to normalize formatting without changing recipe content.

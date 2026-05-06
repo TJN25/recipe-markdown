@@ -1,4 +1,3 @@
-
 # Creamy Mexican Chicken, Broccoli & Edamame Bake
 
 ??? note "Ingredients"
@@ -12,7 +11,7 @@
     * 1 cup milk, plus a bit extra
     * black pepper, to taste
     * salt, to taste
-    * cooked [Mexican chicken](mexican-chicken-marinade.md)
+    * cooked [mexican chicken marinade](recipes/mexican-chicken-marinade.md)
     * 180 g cottage cheese
     * 45 g grated cheese
     * 1/2 rice-cup brown rice and quinoa mix

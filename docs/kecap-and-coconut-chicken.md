@@ -1,4 +1,3 @@
-
 # Kecap & Coconut Chicken with Coconut Rice
 
 ??? note "Ingredients"

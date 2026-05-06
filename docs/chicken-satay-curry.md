@@ -1,4 +1,3 @@
-
 # Malaysian Chicken Satay Curry
 
 **Serves:** 2

@@ -1,4 +1,3 @@
-
 # Peruvian-Style Fried Rice (Arroz Chaufa) with Carrot and Corn
 
 **Serves:** 2

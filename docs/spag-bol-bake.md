@@ -1,4 +1,3 @@
-
 # Spaghetti Bolognese Bake
 
 **Serves:** 2

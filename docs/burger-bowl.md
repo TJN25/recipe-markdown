@@ -1,4 +1,3 @@
-
 # Big Mac Cheeseburger Protein Bowl
 
 **Serves:** 2

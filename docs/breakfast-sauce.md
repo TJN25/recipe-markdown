@@ -1,4 +1,3 @@
-
 # Breakfast sauce
 ??? note "Ingredients"
     - 100g mayo

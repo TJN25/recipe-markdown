@@ -1,4 +1,3 @@
-
 # Guajillo Braised Chuck Roast
 
 **Serves:** 4

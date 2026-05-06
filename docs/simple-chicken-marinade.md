@@ -1,4 +1,3 @@
-
 # Simple Chicken Marinade
 
 ??? note "To try out with freezing:"

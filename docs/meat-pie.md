@@ -1,4 +1,3 @@
-
 # Meat Pie Recipe
 
 ??? note "Ingredients"

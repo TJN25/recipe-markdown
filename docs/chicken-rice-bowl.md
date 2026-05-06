@@ -1,4 +1,3 @@
-
 # Chicken Rice Bowl
 
 **Serves:** 2

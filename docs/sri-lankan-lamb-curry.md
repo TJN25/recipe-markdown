@@ -1,4 +1,3 @@
-
 # Sri Lankan Spicy Lamb Curry (2 servings)
 
 ??? note "Ingredients"

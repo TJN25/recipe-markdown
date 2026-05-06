@@ -1,4 +1,3 @@
-
 # Quick Pizza Sauce
 
 ??? note "Ingredients"

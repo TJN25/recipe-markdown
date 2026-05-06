@@ -1,4 +1,3 @@
-
 # Slow Cooker Cuban Mojo Pork
 
 **Serves:** 3-4

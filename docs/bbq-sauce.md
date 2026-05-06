@@ -1,4 +1,3 @@
-
 # BBQ Sauce Recipe
 
 ??? note "Ingredients"

@@ -1,4 +1,3 @@
-
 # Carrot Pickle
 
 **Yield:** about 300 g

@@ -1,4 +1,3 @@
-
 # Spaghetti Bolognese
 
 **Serves:** 5

@@ -1,4 +1,3 @@
-
 # Homemade Kewpie-Style Mayo
 
     ??? info "Standard Batch (makes ~250ml/1 cup)"

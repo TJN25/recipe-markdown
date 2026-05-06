@@ -18,13 +18,13 @@
     For Spiced Couscous
     - Your existing recipe
     For Assembly
-    - [Pita bread](pita-bread.md) (carbohydrate, vessel)
+    - [Pita Bread](recipes/pita-bread.md) (carbohydrate, vessel)
     - Lettuce (freshness, crunch)
     - Fresh onion (sharpness, crunch)
     - Pickled carrot (sweet acidity, color)
     - Pickled daikon (tangy crunch, brightness)
     - Hummus (creamy texture, protein)
-    - [Red taco sauce](burrito-sauce.md) (acidity, heat)
+    - [Burrito Sauce](recipes/burrito-sauce.md) (acidity, heat)
     - Diced fresh tomatoes (freshness, acidity)
     - Diced cucumber (coolness, crunch)
     - Fresh herbs: mint and parsley (brightness, aroma)
@@ -60,15 +60,15 @@
     2. Prepare Couscous:
     - Follow your existing spiced couscous recipe.
     3. Warm Pita Bread:
-    - Lightly brush [pitas](pita-bread.md) with olive oil.
+    - Lightly brush [pita bread](recipes/pita-bread.md) with olive oil.
     - Toast in the toaster oven for 1-2 minutes until warm and slightly crisp.
     Assembly
-    1. Spread hummus on one side of warmed [pita bread](pita-bread.md).
+    1. Spread hummus on one side of warmed [pita bread](recipes/pita-bread.md).
     2. Layer with lettuce, sliced chicken thighs, spiced couscous.
     3. Top with your dairy-free sauce, fresh onion, pickled carrot, and pickled daikon.
     4. Add diced tomatoes and cucumber.
     5. Sprinkle generously with chopped mint and parsley.
-    6. Drizzle with [red taco sauce](burrito-sauce.md) if desired.
+    6. Drizzle with [burrito sauce](recipes/burrito-sauce.md) if desired.
     Enhancement Suggestions
     1. Dairy-Free Marinade Tips:
     - For coconut yogurt, choose an unsweetened variety with minimal additives.

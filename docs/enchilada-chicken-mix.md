@@ -1,4 +1,3 @@
-
 # Enchilada Chicken Filling
 
 **Makes:** enough for 5 enchiladas (using small wraps)

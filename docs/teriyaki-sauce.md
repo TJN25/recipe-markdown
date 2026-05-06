@@ -1,4 +1,3 @@
-
 # Teriyaki Drizzle
 
 **Makes:** ~⅓ cup, enough for 2-3 bowls

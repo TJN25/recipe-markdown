@@ -1,4 +1,3 @@
-
 ??? note "KATSU SUSHI ROLLS (2 rolls: 1 standard teriyaki, 1 cream cheese sriracha)"
 
     ??? info "Ingredients"

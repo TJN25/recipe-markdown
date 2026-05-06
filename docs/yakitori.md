@@ -1,4 +1,3 @@
-
 ??? note "YAKITORI (4–6 skewers)"
 
     ??? info "Ingredients"

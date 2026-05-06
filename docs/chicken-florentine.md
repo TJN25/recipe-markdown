@@ -1,4 +1,3 @@
-
 # Chicken Florentine (Modified for 2 servings, no cream, no wine)
 
 ??? note "Ingredients"

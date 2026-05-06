@@ -1,4 +1,3 @@
-
 # GYOZA (8 pieces)
 
 ??? note "Ingredients"

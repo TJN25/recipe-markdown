@@ -1,4 +1,3 @@
-
 # Asian-fusion Curry Style Chicken
 
 ??? note "Ingredients"

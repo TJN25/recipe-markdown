@@ -1,4 +1,3 @@
-
 # Chilli Con Carne (Dutch Oven)
 
 **Serves:** 4-5 

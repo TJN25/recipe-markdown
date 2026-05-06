@@ -1,4 +1,3 @@
-
 # Red Taco Sauce
 
 **Makes:** approximately 300-350ml
@@ -68,7 +67,7 @@
 
 ??? note "Legacy / Alternatives"
 
-    - [Mexican spicy sauce](mexican-spicy-sauce.md) - older version of the sauce
-    - [Ginger-peach fire sauce](ginger-peach-fire-sauce.md)
-    - [Capsicum sauce](capsicum-sauce.md)
-    - [BBQ sauce](bbq-sauce.md)
+    - [Mexican Spicy Sauce](recipes/mexican-spicy-sauce.md) - older version of the sauce
+    - [Ginger Peach Fire Sauce](recipes/ginger-peach-fire-sauce.md)
+    - [Capsicum Sauce](recipes/capsicum-sauce.md)
+    - [Bbq Sauce](recipes/bbq-sauce.md)

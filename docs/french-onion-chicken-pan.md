@@ -1,4 +1,3 @@
-
 ??? note "One Pan Cheesy French Onion Chicken with Vegetables (2 Servings)"
 
     ??? info "Ingredients:"

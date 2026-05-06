@@ -1,4 +1,3 @@
-
 # Quick Beef Pide
 
 ??? note "Ingredients"

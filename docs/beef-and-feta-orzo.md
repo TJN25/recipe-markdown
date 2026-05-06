@@ -1,4 +1,3 @@
-
 # Beef and Feta Orzo
 
 ??? note "Ingredients"

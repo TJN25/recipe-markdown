@@ -1,4 +1,3 @@
-
 # Chipotle Enchilada Sauce
 
 **Makes:** enough for 5 small enchiladas (using small wraps)

@@ -1,4 +1,3 @@
-
 # Enchilada-Style Vegetable Burrito Component
 
 **Makes:** about 4 portions

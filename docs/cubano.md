@@ -1,12 +1,11 @@
-
 # Cubano Sandwich
 
 ??? note "Ingredients"
 
-    - [Bread roll](bread-roll.md) (see other recipe)
+    - [Bread Roll](recipes/bread-roll.md) (see other recipe)
     - Slice of leg ham
     - Slice of swiss cheese
-    - 60g [mojo pork](mojo-pork.md) (see other recipe)
+    - 60g [mojo pork](recipes/mojo-pork.md) (see other recipe)
     - 1 gherkin, sliced long ways
     - American mustard
     - Butter

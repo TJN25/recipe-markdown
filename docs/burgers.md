@@ -1,4 +1,3 @@
-
 ??? note "Ingredients"
     - 125g beef mince (prime)
     - 15g red onion, pickle
