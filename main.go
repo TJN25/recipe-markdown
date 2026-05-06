@@ -156,13 +156,11 @@ func rewriteWikiLinks(line string) string {
 	return wikiLinkRE.ReplaceAllStringFunc(line, func(match string) string {
 		parts := wikiLinkRE.FindStringSubmatch(match)
 
-		target := parts[1]
+		target := strings.TrimPrefix(parts[1], "recipes/")
 		text := target
 		if parts[2] != "" {
 			text = parts[2]
 		}
-
-		target = strings.TrimPrefix(target, "recipes/")
 
 		return "[" + text + "](" + target + ".md)"
 	})
