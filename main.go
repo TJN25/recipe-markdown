@@ -2,12 +2,13 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"io/fs"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
+
+	"github.com/TJN25/clilog"
 )
 
 func main() {
@@ -17,12 +18,18 @@ func main() {
 
 	flag.Parse()
 	if *src == "" {
-		fmt.Fprintln(os.Stderr, "--src is required")
+		clilog.Fprintln(os.Stderr, "--src is required")
 		os.Exit(1)
 	}
 
-	fmt.Printf("Using %s to write to %s with %s as the landing page\n", *src, *out, *index)
+	clilog.Infof("Using %s to write to %s with %s as the landing page\n", *src, *out, *index)
+	err := walkTarget(src, out, index)
+	if err != nil {
+		os.Exit(1)
+	}
+}
 
+func walkTarget(src, out, index *string) error {
 	files := []string{}
 	err := filepath.WalkDir(*src, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
@@ -34,7 +41,7 @@ func main() {
 		}
 		data, err := os.ReadFile(path)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s", err)
+			clilog.Errorf("%s\n", err)
 			return nil
 		}
 
@@ -42,35 +49,36 @@ func main() {
 
 		modifiedContents, err := processData(contents)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s", err)
+			clilog.Errorf("%s\n", err)
 			return nil
 		}
 
 		outPath, err := writeContents(modifiedContents, out, path)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s", err)
+			clilog.Errorf("%s\n", err)
 			return nil
 		}
 		files = append(files, outPath)
 		if filepath.Base(path) == *index {
 			_, err = writeContents(modifiedContents, out, "index.md")
 			if err != nil {
-				fmt.Fprintf(os.Stderr, "%s", err)
+				clilog.Errorf("%s\n", err)
 				return nil
 			}
 		}
 		err = writeContentsPage(out, files)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "%s", err)
+			clilog.Errorf("%s\n", err)
 			return nil
 		}
 
 		return nil
 	})
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "%s", err)
-		os.Exit(1)
+		clilog.Errorf("%s\n", err)
+		return err
 	}
+	return nil
 }
 
 func processData(contents []string) ([]string, error) {
