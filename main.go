@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"io/fs"
 	"os"
 	"path/filepath"
@@ -16,6 +17,11 @@ func main() {
 	out := flag.String("out", "docs", "path to output directory (default: docs)")
 	index := flag.String("index", "meal-ideas.md", "file to target as the 'index.md' (default: meal-ideas.md)")
 
+	if err := clilog.InitializeLogger(5); err != nil {
+		fmt.Fprintf(os.Stderr, "%s", err)
+		os.Exit(1)
+	}
+
 	flag.Parse()
 	if *src == "" {
 		clilog.Fprintln(os.Stderr, "--src is required")
@@ -25,6 +31,7 @@ func main() {
 	clilog.Infof("Using %s to write to %s with %s as the landing page\n", *src, *out, *index)
 	err := walkTarget(src, out, index)
 	if err != nil {
+		clilog.Errorf("%s\n", err)
 		os.Exit(1)
 	}
 }
@@ -53,14 +60,14 @@ func walkTarget(src, out, index *string) error {
 			return nil
 		}
 
-		outPath, err := writeContents(modifiedContents, out, path)
+		outPath, err := writePage(modifiedContents, out, path)
 		if err != nil {
 			clilog.Errorf("%s\n", err)
 			return nil
 		}
 		files = append(files, outPath)
 		if filepath.Base(path) == *index {
-			_, err = writeContents(modifiedContents, out, "index.md")
+			_, err = writePage(modifiedContents, out, "index.md")
 			if err != nil {
 				clilog.Errorf("%s\n", err)
 				return nil
@@ -127,9 +134,14 @@ func processData(contents []string) ([]string, error) {
 	return modifiedContents, nil
 }
 
-func writeContents(contents []string, out *string, path string) (string, error) {
+func writePage(contents []string, out *string, path string) (string, error) {
 	base := filepath.Base(path)
-	outPath := filepath.Join(*out, base)
+	var outPath string
+	if base != "index.md" && base != "contents.md" {
+		outPath = filepath.Join(*out, "recipes", base)
+	} else {
+		outPath = filepath.Join(*out, base)
+	}
 	err := os.MkdirAll(filepath.Dir(outPath), 0o755)
 	if err != nil {
 		return "", err
