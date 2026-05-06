@@ -136,12 +136,7 @@ func processData(contents []string) ([]string, error) {
 
 func writePage(contents []string, out *string, path string) (string, error) {
 	base := filepath.Base(path)
-	var outPath string
-	if base != "index.md" && base != "contents.md" {
-		outPath = filepath.Join(*out, "recipes", base)
-	} else {
-		outPath = filepath.Join(*out, base)
-	}
+	outPath := filepath.Join(*out, base)
 	err := os.MkdirAll(filepath.Dir(outPath), 0o755)
 	if err != nil {
 		return "", err
@@ -166,6 +161,9 @@ func rewriteWikiLinks(line string) string {
 		if parts[2] != "" {
 			text = parts[2]
 		}
+
+		target = strings.TrimPrefix(target, "recipes/")
+
 		return "[" + text + "](" + target + ".md)"
 	})
 }
