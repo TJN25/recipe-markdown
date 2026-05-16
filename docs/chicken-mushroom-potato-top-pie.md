@@ -1,4 +1,3 @@
-
 # Chicken & Mushroom Pie with Duchess Potato Topping
 
 **Serves:** 4
