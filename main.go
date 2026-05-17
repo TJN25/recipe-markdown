@@ -36,6 +36,39 @@ func main() {
 	}
 }
 
+type Recipes []Recipe
+
+type Recipe struct {
+	Path     string
+	Name     string
+	Timing   Time
+	Contents []string
+	Type     RecipeType
+	Quality  RecipeQuality
+}
+
+type RecipeType int
+
+const (
+	FullMeal int = iota
+	Component
+)
+
+type RecipeQuality int
+
+const (
+	GoTo int = iota
+	Reliable
+	MadeOnce
+	Idea
+)
+
+type Time struct {
+	Total  string
+	Prep   string
+	Active string
+}
+
 func walkTarget(src, out, index *string) error {
 	files := []string{}
 	err := filepath.WalkDir(*src, func(path string, d fs.DirEntry, err error) error {
@@ -177,3 +210,5 @@ func writeContentsPage(out *string, files []string) error {
 	output := strings.Join(lines, "\n")
 	return os.WriteFile(outPath, []byte(output), 0o644)
 }
+
+func writeIndexPage(out *string, path string, r Recipes) error
