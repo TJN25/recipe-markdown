@@ -17,6 +17,7 @@ func main() {
 	src := flag.String("src", "", "path to source directory")
 	out := flag.String("out", "docs", "path to output directory (default: docs)")
 	index := flag.String("index", "meal-ideas.md", "file to target as the 'index.md' (default: meal-ideas.md)")
+	mkdocs := flag.String("mkdocs", "mkdocs.yml", "path to MkDocs config to write (default: mkdocs.yml)")
 
 	if err := clilog.InitializeLogger(5); err != nil {
 		fmt.Fprintf(os.Stderr, "%s", err)
@@ -30,7 +31,7 @@ func main() {
 	}
 
 	clilog.Infof("Using %s to write to %s with %s as the landing page\n", *src, *out, *index)
-	err := walkTarget(src, out, index)
+	err := walkTarget(src, out, index, mkdocs)
 	if err != nil {
 		clilog.Errorf("%s\n", err)
 		os.Exit(1)
@@ -53,7 +54,7 @@ type Time struct {
 	Active string
 }
 
-func walkTarget(src, out, index *string) error {
+func walkTarget(src, out, index, mkdocs *string) error {
 	files := []string{}
 	recipes := Recipes{}
 	err := filepath.WalkDir(*src, func(path string, d fs.DirEntry, err error) error {
@@ -103,7 +104,10 @@ func walkTarget(src, out, index *string) error {
 	if err := writeContentsPage(out, files); err != nil {
 		return err
 	}
-	return writeIndexPage(out, recipes)
+	if err := writeIndexPage(out, recipes); err != nil {
+		return err
+	}
+	return writeMkdocsConfig(mkdocs, recipes)
 }
 
 func processData(contents []string) ([]string, error) {
@@ -358,4 +362,50 @@ func (recipes Recipes) withTags(tags ...string) Recipes {
 		}
 	}
 	return matches
+}
+
+func writeMkdocsConfig(path *string, recipes Recipes) error {
+	fullMealGoTos := recipes.withTags("recipe/full-meal", "recipe/status/go-to")
+	componentGoTos := recipes.withTags("recipe/component", "recipe/status/go-to")
+
+	lines := []string{
+		"site_name: Recipes",
+		"docs_dir: docs",
+		"nav:",
+		"  - Home: index.md",
+		"  - Contents: contents.md",
+	}
+	appendNavGroup := func(title string, items Recipes) {
+		if len(items) == 0 {
+			return
+		}
+		lines = append(lines, "  - "+title+":")
+		lines = append(lines, "      - Go to:")
+		for _, recipe := range items {
+			lines = append(lines, "          - "+yamlKey(recipe.Name)+": "+recipe.Path)
+		}
+	}
+	appendNavGroup("Full meals", fullMealGoTos)
+	appendNavGroup("Components", componentGoTos)
+
+	lines = append(lines,
+		"theme:",
+		"  name: material",
+		"  features:",
+		"    - navigation.expand",
+		"",
+		"plugins:",
+		"  - search",
+		"",
+		"markdown_extensions:",
+		"  - admonition",
+		"  - pymdownx.details",
+	)
+
+	return os.WriteFile(*path, []byte(strings.Join(lines, "\n")+"\n"), 0o644)
+}
+
+func yamlKey(value string) string {
+	value = strings.ReplaceAll(value, `"`, `\"`)
+	return `"` + value + `"`
 }
