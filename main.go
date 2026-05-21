@@ -107,7 +107,7 @@ func walkTarget(src, out, index, mkdocs *string) error {
 	if err := writeIndexPage(out, recipes); err != nil {
 		return err
 	}
-	return writeMkdocsConfig(mkdocs, recipes)
+	return writeMkdocsConfig(mkdocs, out, recipes)
 }
 
 func processData(contents []string) ([]string, error) {
@@ -364,13 +364,13 @@ func (recipes Recipes) withTags(tags ...string) Recipes {
 	return matches
 }
 
-func writeMkdocsConfig(path *string, recipes Recipes) error {
+func writeMkdocsConfig(path, out *string, recipes Recipes) error {
 	fullMealGoTos := recipes.withTags("recipe/full-meal", "recipe/status/go-to")
 	componentGoTos := recipes.withTags("recipe/component", "recipe/status/go-to")
 
 	lines := []string{
 		"site_name: Recipes",
-		"docs_dir: docs",
+		"docs_dir: " + *out,
 		"nav:",
 		"  - Home: index.md",
 		"  - Contents: contents.md",
