@@ -1,6 +1,6 @@
 **Related:**
 - [Mince](Mince.md)
-- [Food](main/Food.md)
+- [Food](Food.md)
 
 # Recipe
 

@@ -2,7 +2,7 @@
 
 ??? note "Ingredients"
 
-    * 600 g cooked  [mexican chicken marinade](recipes/mexican-chicken-marinade.md)
+    * 600 g cooked  [mexican chicken marinade](mexican-chicken-marinade.md)
     * 75 g baby spinach, stalks removed and sliced
     * 1/2 rice-cup brown rice and quinoa mix
     * 1/4 red onion, diced very finely
