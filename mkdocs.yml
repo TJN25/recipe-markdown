@@ -3,6 +3,32 @@ docs_dir: docs
 nav:
   - Home: index.md
   - Contents: contents.md
+  - Full meals:
+      - Go to:
+          - "Burgers": burgers.md
+          - "Butter Chicken": butter-chicken.md
+          - "Chicken Burrito": chicken-burrito.md
+          - "Chicken Edamame Cheese Bake": chicken-edamame-cheese-bake.md
+          - "Chicken Rice Bowl": chicken-rice-bowl.md
+          - "Chipotle Chicken Mac And Cheese": chipotle-chicken-mac-and-cheese.md
+          - "Creamy Chilli Pasta": creamy-chilli-pasta.md
+          - "Doner Kebab": doner-kebab.md
+          - "Mac And Cheese": mac-and-cheese.md
+          - "Mexican Chicken Rice Salad": mexican-chicken-rice-salad.md
+          - "Mexican Style Cottage Pie": mexican-style-cottage-pie.md
+          - "Nasi Goreng": nasi-goreng.md
+          - "Spag Bol": spag-bol.md
+          - "Spag Bol Bake": spag-bol-bake.md
+  - Components:
+      - Go to:
+          - "Bbq Sauce": bbq-sauce.md
+          - "Bechemel": bechemel.md
+          - "Breakfast Sauce": breakfast-sauce.md
+          - "Burrito Sauce": burrito-sauce.md
+          - "Doner Meat": doner-meat.md
+          - "Mexican Chicken Marinade": mexican-chicken-marinade.md
+          - "Pickled Red Onion": pickled-red-onion.md
+          - "Spiced Couscous": spiced-couscous.md
 theme:
   name: material
   features:
