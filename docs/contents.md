@@ -70,6 +70,7 @@
 - [ginger-peach-fire-sauce](ginger-peach-fire-sauce.md)
 - [goan-carrot-pickle](goan-carrot-pickle.md)
 - [goan-style-veges](goan-style-veges.md)
+- [gozleme](gozleme.md)
 - [gravy](gravy.md)
 - [gyoza](gyoza.md)
 - [indonesian-pickled-carrots](indonesian-pickled-carrots.md)
