@@ -78,6 +78,7 @@
         - [Chicken Tikka Masala](chicken-tikka-masala.md) (2 hours 15 minutes)
         - [Chipotle Beef Mac And Cheese](Chipotle beef mac and cheese.md)
         - [Cottage Cheese Lasagna](Cottage cheese lasagna.md) (1 hour)
+        - [Creamy Mushroom and Spinach Orzo (Risoni) (One Pot)](creamy-mushroom-and-spinach-orzo-risoni-one-pot.md) (30 minutes)
         - [Fusion Taco Noodles](fusion-taco-noodles.md) (15 minutes)
         - [Gozleme](gozleme.md) (50 minutes)
         - [Iskender Style Chicken](iskender-style-chicken.md) (40 minutes)
@@ -85,13 +86,16 @@
         - [Lamb Pita](lamb-pita.md) (20 minutes)
         - [Lamb Rogan Josh](lamb-rogan-josh.md) (55 minutes)
         - [Loaded Cubano Style Sandwich](loaded-cubano-style-sandwich.md) (15 minutes)
+        - [Meatball Sub](meatball-sub.md) (20 minutes)
         - [meatballs](Meatballs.md) (35 minutes)
         - [Moroccan Lamb Stew](moroccan-lamb-stew.md) (2 hours)
         - [pie](Pie.md)
         - [Potato Gratin](potato-gratin.md) (1 hour 30 minutes)
         - [Pumpkin Soup](pumpkin-soup.md) (15 minutes)
+        - [Satay Chicken Curry (Malaysian)](satay-chicken-curry-malaysian.md) (45 minutes)
         - [Slow Cooker Mac And Cheese](Slow Cooker Mac and Cheese.md)
         - [Thai Cashew Chicken Stir Fry](thai-cashew-chicken-stir-fry.md) (18 minutes)
+        - [Tray Bake Dinner: Lamb Kofta Meatballs](tray-bake-dinner-lamb-kofta-meatballs.md) (40 minutes)
 
 ??? note "Components"
     ??? info "Go to"
