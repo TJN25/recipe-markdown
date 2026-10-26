@@ -1,15 +1,15 @@
 ??? note "Recipe"
-    - [Chicken](Chicken.md) (700g)
-    - 1 [Onion](Onion.md)
-    - 3 large portobello [mushrooms](mushrooms.md)
-    - 250g [Boccolli pasta](Boccolli pasta.md)
-    - 250g [Cheese](Cheese.md)
-    - 30g [Parmesan cheese](Parmesan cheese.md)
-    - 1 can [chipotle peppers](chipotle peppers.md)
-    - 2tps crushed [Garlic](Garlic.md)
-    - 1 [red chilli](red chilli.md)
-    - tsp [mustard powder](mustard powder.md)
-    - 2 tsp [Smoked paprika](Smoked paprika.md)
-    - 750 ml trim [milk](milk.md)
-    - 300 ml [cream](cream.md)
-    - 120g [spinach](spinach.md)
+    - Chicken (700g)
+    - 1 Onion
+    - 3 large portobello mushrooms
+    - 250g Boccolli pasta
+    - 250g Cheese
+    - 30g Parmesan cheese
+    - 1 can chipotle peppers
+    - 2tps crushed Garlic
+    - 1 red chilli
+    - tsp mustard powder
+    - 2 tsp Smoked paprika
+    - 750 ml trim milk
+    - 300 ml cream
+    - 120g spinach

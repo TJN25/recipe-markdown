@@ -1,17 +1,17 @@
 **Related:**
-- [Mince](Mince.md)
+- Mince
 - [Food](Food.md)
 
 # Recipe
 
 ##Ingredients
-- [Mince](Mince.md) (500g)
-- [Egg](Egg.md) (1)
-- [Onion](Onion.md) (1/2)
-- [Garlic](Garlic.md) (1 tsp crushed)
-- [Worchesterchire](Worchesterchire.md) [sauce](sauce.md) (A splash)
-- [Bread crumbs](Bread crumbs.md) (1 cup)
-- [Backyard BBQ Seasoning](Backyard BBQ Seasoning.md) (2 heaped tsp)
+- Mince (500g)
+- Egg (1)
+- Onion (1/2)
+- Garlic (1 tsp crushed)
+- Worchesterchire sauce (A splash)
+- Bread crumbs (1 cup)
+- Backyard BBQ Seasoning (2 heaped tsp)
 
 ??? note "Instructions"
     1. Mix all ingredients together in a bowl.

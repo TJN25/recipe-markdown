@@ -1,26 +1,26 @@
 **Related:**
-- [Mince](Mince.md)
+- Mince
 - [Food](Food.md)
-- [Pasta](Pasta.md)
+- Pasta
 
 # Recipe
 
 ##Ingredients
 ??? note "Filling"
-    - [Mince](Mince.md) (500g)
-    - [Onion](Onion.md) (1/2)
-    - [Garlic](Garlic.md) (1 tsp crushed)
-    - [Mushrooms](Mushrooms.md) (100g)
-    - [Lasanga sauce](Lasanga sauce.md) (1 jar Dolmio)
-    - [Spinach](Spinach.md) (120g)
+    - Mince (500g)
+    - Onion (1/2)
+    - Garlic (1 tsp crushed)
+    - Mushrooms (100g)
+    - Lasanga sauce (1 jar Dolmio)
+    - Spinach (120g)
 ??? note "Bechemal"
-    - [Cottage cheese](Cottage cheese.md) (500g)
-    - [Egg](Egg.md) (2)
-    - [Cheese](Cheese.md) (225g + extra for topping)
-    - [Parmesan](Parmesan.md) (30g)
+    - Cottage cheese (500g)
+    - Egg (2)
+    - Cheese (225g + extra for topping)
+    - Parmesan (30g)
 
 ??? note "Pasta"
-    - [Lasanga pieces](Lasanga pieces.md) (250g)
+    - Lasanga pieces (250g)
 
 ??? note "Instructions"
     1. Mix all bechemal ingredients together in a bowl.

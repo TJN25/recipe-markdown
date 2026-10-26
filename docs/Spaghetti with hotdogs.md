@@ -1,13 +1,13 @@
-- [Frankfurters](Frankfurters.md) (packet)
-- [Spaghetti](Spaghetti.md)
-- [Onion](Onion.md)
-- [Garlic](Garlic.md)
-- 1 [can tomatoes](can tomatoes.md)
-- [Tomato paste](Tomato paste.md)
-- [Worcestershire sauce](Worcestershire sauce.md)
-- [Oregano](Oregano.md)
-- [Thyme](Thyme.md)
-- [Smoked paprika](Smoked paprika.md)
-- [Parmesan cheese](Parmesan cheese.md)
-- [Brown sugar](Brown sugar.md)
-- Roasted [capsicums](capsicums.md)
+- Frankfurters (packet)
+- Spaghetti
+- Onion
+- Garlic
+- 1 can tomatoes
+- Tomato paste
+- Worcestershire sauce
+- Oregano
+- Thyme
+- Smoked paprika
+- Parmesan cheese
+- Brown sugar
+- Roasted capsicums
